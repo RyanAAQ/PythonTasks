@@ -5,11 +5,11 @@
     Then print out the result
 
 
-
-
-
-
 """
+
+
+
+
 purchase_amount = int(input("Enter the amount you want to spend: "))
     
 if purchase_amount >= 1000 and purchase_amount <= 10000:
@@ -27,3 +27,8 @@ else:
     discount3 = purchase_amount * (20 / 100)
     print("Your have a 20% discount and you saved ", dicount3)
     prinr("Your new price is ", purchase_amount - discount)
+
+for row in range(10):
+    for column in range(10):
+        print('<' if row % 2 == 1 else '>', end='')
+    print()
