@@ -5,9 +5,9 @@
     Then print out the result
 
 
+
+
 """
-
-
 
 
 purchase_amount = int(input("Enter the amount you want to spend: "))
@@ -28,7 +28,3 @@ else:
     print("Your have a 20% discount and you saved ", dicount3)
     prinr("Your new price is ", purchase_amount - discount)
 
-for row in range(10):
-    for column in range(10):
-        print('<' if row % 2 == 1 else '>', end='')
-    print()
