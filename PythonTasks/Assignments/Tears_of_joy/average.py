@@ -1,11 +1,8 @@
-numbers = 4, 8, 15, 16, 23, 42, 10, 5, 4, 7, 20
+number = int(input("Enter the numbers: "))
 total = 0
-count = 0
-
-for num in numbers:
-    total += num
-    count += 1
-
-average = total / count
+for num in range(number):
+    secondnumber = int(input("Enter the number: "))
+    count += secondnumber
+average = count / number
 print("Average =", average)
 
