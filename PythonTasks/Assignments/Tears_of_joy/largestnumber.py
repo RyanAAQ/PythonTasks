@@ -2,11 +2,11 @@ number = input("Enter number: ")
 largest = number
 
 while number != "done":
+    number = input("Enter number: ")
     if number > largest:
         largest = number
-    number = input("Enter number: ")
 
-print("Largest =", largest)
+print("Largest =", number)
 
     
 
