@@ -1,11 +1,10 @@
 total = 0
 count = 0
-
 while True:
-    num = float(input("Enter a number: "))
-    if num == -1:
+    number = float(input("Enter a number: "))
+    if number == -1:
         break
-    total += num
+    total += number
     count += 1
 
 if count > 0:

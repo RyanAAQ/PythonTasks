@@ -1,4 +1,2 @@
-word = "python"
-
-for char in word:
+for char in "python":
     print(char, end = "  ")

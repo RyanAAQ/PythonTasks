@@ -3,7 +3,7 @@ import random
 target = random.randint(1, 100)
 attempts = 0
 
-while True:
+while target > 0:
     guess = int(input("Guess: "))
     attempts += 1
     
