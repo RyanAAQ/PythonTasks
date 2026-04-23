@@ -1,5 +1,8 @@
 product = 1
-for number in range(11, 0, 1):
-    product = number
-    print(number)
+number = int(input("Enter a number: "))
+for number in range(number, 0, -1):
+    product *= number
+    print(product)
+print()
+    
     
